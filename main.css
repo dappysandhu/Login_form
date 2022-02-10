@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin:0;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center ;
+    justify-items: center;
+    background-color: #3a3a3a ;   
+}
+
+#main-holder{
+    width: 50%;
+    height: 70%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: lavender;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 2px black;
+}
+
+#login-form{
+    align-self: flex-start;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.login-form-field::placeholder{
+    color: #3a3a3a;
+}
+.login-form-field{
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #3a3a3a;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    padding: 0px 0px 10px 10px;
+    background-color: lavender;
+}
+#login-form-submit{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #3a3a3a;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 3px 2px 3px 2px black;
+}
+
+.login-text{
+        color: #3a3a3a;
+        text-align: center;
+}
+
+.register-text{
+    color: #3a3a3a;
+    text-align: center;
+}
+
+a:link, a:visited{
+    color: #3a3a3a;
+    text-align: center;
+    line-height: 3;
+}
+
+.home{
+    color: black;
+    position: relative;
+    bottom: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.link{
+    color: #3a3a3a;
+    text-align: center;
+    line-height: 3;
+    position: relative;
+    top: 18em;
+    font-size: 1.4em;
+}
